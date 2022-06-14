@@ -24,7 +24,10 @@ button {
 body {
     font-family: Space-Grotesk;
     font-weight: 300;
-    color: white;
+    background-color: #000;
+    color: #ffffff;
+    border: #ffffff;
+    ;
 }
 
 
@@ -64,5 +67,33 @@ nav ul li a::hover {
 #hero {
     background-image: url(../Illustrations/Bathome1.png);
     height: 800px;
-    background-position: top center;
+    color: white;
+    background-size: cover;
+}
+
+.content {
+    font-family: Space-Grotesk;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+
+/* design des personnages */
+
+.Personnage,
+.Nemesis,
+.ALLIES {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+#texte {
+    display: flex;
 }
