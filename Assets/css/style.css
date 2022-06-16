@@ -1,99 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Space+Grotesk:wght@400;700&display=swap');
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-:root {
-    --yellow-color: #FFFF00 --yellow-light: #F8F184 --white-color: #FFFFF --black-color: #000000 --red-color: #B11313 --blue-color: #19587D --blue-color: #eddebf #19587D -- gray-color: #C4C4C4 -- red-light: #EDDEBF #890008
-}
-
-h1 {
-    font-family: 'Rajdhani';
-    font-size: 36px;
-    font-weight: 400px;
-}
-
-button {
-    font-family: 'Rajdhani';
-    font-size: 20 px;
-    font-weight: 400px;
-}
-
-body {
-    font-family: Space-Grotesk;
-    font-weight: 300;
-    background-color: #000;
-    color: #ffffff;
-    border: #ffffff;
-    ;
-}
-
-
-/*Design de la navigation */
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #000;
-    padding-top: 30px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-nav ul li a {
-    color: #ffffff;
-    font-family: 'rajdhani';
-    font-size: 25px;
-    font-weight: 500;
-}
-
-nav ul li a::hover {
-    color: #ffff00
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-
-/* design de la partie hero*/
-
-#hero {
-    background-image: url(../Illustrations/Bathome1.png);
-    height: 800px;
-    color: white;
-    background-size: cover;
-}
-
-.content {
-    font-family: Space-Grotesk;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    padding-top: 150px;
-}
-
-
-/* design des personnages */
-
-.Personnage,
-.Nemesis,
-.ALLIES {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-}
-
-#texte {
-    display: flex;
-}
+            @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Space+Grotesk:wght@400;700&display=swap');
+            @font-face {
+                font-family: 'rajdhani';
+                src: url(../police/Rajdhani-Medium.ttf);
+            }
+            
+            * {
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+            }
+            
+             :root {
+                --yellow-color: #FFFF00;
+                --yellow-light: #F8F184;
+                --white-color: #ffff;
+                --black-color: #000000;
+                --red-color: #B11313;
+                --blue-color: #19587D;
+                --gradient-white: #eddebf33;
+                --gray-color: #C4C4C4;
+                --gradient-red: #8900091f;
+            }
+            
+            *p h1 {
+                font-family: 'Rajdhani';
+                font-size: 36px;
+                font-weight: 400px;
+            }
+            
+            button {
+                font-family: 'Rajdhani';
+                font-size: 20 px;
+                font-weight: 400px;
+            }
+            
+            body {
+                font-family: Space Grotesk;
+                font-weight: 300;
+                background-color: #000;
+                color: #ffffff;
+                border: #ffffff;
+                ;
+            }
+            /*Design de la navigation */
+            
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #000;
+                padding-top: 30px;
+            }
+            
+            ul {
+                list-style-type: none;
+            }
+            
+            nav ul li a {
+                color: #ffffff;
+                font-family: 'rajdhani';
+                font-size: 25px;
+                font-weight: 500;
+            }
+            
+            nav ul li a::hover {
+                color: #ffff00
+            }
+            
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+            /* design de la partie hero*/
+            
+            #hero {
+                background-image: url(../Illustrations/Bathome1.png);
+                height: 800px;
+                color: white;
+                background-size: cover;
+                background-position: top center;
+                background-repeat: no-repeat;
+            }
+            
+            .content {
+                font-family: Space Grotesk;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                width: 60%;
+                margin: 0 auto;
+                padding-top: 200px;
+            }
+            
+            #hero .titre {
+                margin: 20px;
+            }
+            
+            .btn {
+                text-decoration: none;
+                color: white;
+                font-size: 22px;
+                padding: 10px 20px;
+                background: linear-gradient( 80deg, var(--gradient-white), var(--gradient-red));
+                box-shadow: var(--black-color) 5px 5px 60px;
+            }
+            
+            #hero .flèche {
+                margin: 0 auto;
+                display: block;
+                padding-top: 250px;
+            }
+            
+            .scrool {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: fixed;
+                right: 100px;
+                margin-top: 60px;
+            }
+            /* design des personnages */
+            
+            .Personnage,
+            .Nemesis,
+            .ALLIES {
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                margin: auto;
+            }
+            
+            #texte {
+                display: flex;
+            }
