@@ -118,14 +118,31 @@
                 flex-direction: column;
                 align-items: center;
                 position: fixed;
-                right: 100px;
+                right: 70px;
                 margin-top: 60px;
+                top: 150px;
+            }
+            
+            .social {
+                margin: 15px;
             }
             /* design des personnages */
             
-            .Personnage,
-            .Nemesis,
-            .ALLIES {
+            .Personnage {
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                margin: auto;
+            }
+            
+            .Nemesis {
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                margin: auto;
+            }
+            
+            .Alliés {
                 display: flex;
                 justify-content: space-between;
                 width: 80%;
@@ -134,4 +151,17 @@
             
             #texte {
                 display: flex;
+            }
+            
+            #Batman-Cinema .titre {
+                text-transform: uppercase;
+            }
+            
+            .description {
+                margin-bottom: 40px;
+                text-align: justify;
+            }
+            
+            #NEMESIS .titre {
+                margin: 15px;
             }
