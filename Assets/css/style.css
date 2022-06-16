@@ -155,13 +155,47 @@
             
             #Batman-Cinema .titre {
                 text-transform: uppercase;
+                margin-bottom: 15px;
             }
             
             .description {
                 margin-bottom: 40px;
                 text-align: justify;
+                font-size: 22px;
+            }
+            
+            #NEMESIS {
+                margin-top: 60px;
             }
             
             #NEMESIS .titre {
-                margin: 15px;
+                margin-bottom: 15px;
+            }
+            
+            #ALLIES .titre {
+                margin-bottom: 40px;
+                margin-top: 150px;
+            }
+            
+            #JUSTICE-LEAGUE .titre {
+                margin-bottom: 40px;
+                margin-top: 150px;
+            }
+            
+            .info {
+                text-align: center;
+            }
+            
+            .taille-nemesis {
+                display: flex;
+                text-align: center;
+            }
+            
+            .image-nemesis {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .taille-nemesis .titre {
+                margin-top: 70px;
             }
