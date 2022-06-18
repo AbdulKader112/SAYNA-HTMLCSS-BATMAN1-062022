@@ -22,25 +22,24 @@
                 --gradient-red: #8900091f;
             }
             
-            *p h1 {
-                font-family: 'Rajdhani';
+            h1 {
+                font-family: 'rajdhani';
                 font-size: 36px;
                 font-weight: 400px;
             }
             
             button {
-                font-family: 'Rajdhani';
+                font-family: 'rajdhani';
                 font-size: 20 px;
                 font-weight: 400px;
             }
             
             body {
-                font-family: Space Grotesk;
+                font-family: "Space Grotesk";
                 font-weight: 300;
-                background-color: #000;
+                background-color: var(--black-color);
                 color: #ffffff;
                 border: #ffffff;
-                ;
             }
             /*Design de la navigation */
             
@@ -83,7 +82,7 @@
             }
             
             .content {
-                font-family: Space Grotesk;
+                font-family: 'Space Grotesk';
                 font-size: 20px;
                 display: flex;
                 justify-content: center;
@@ -165,7 +164,7 @@
             }
             
             #NEMESIS {
-                margin-top: 60px;
+                margin-top: 50px;
             }
             
             #NEMESIS .titre {
@@ -198,4 +197,21 @@
             
             .taille-nemesis .titre {
                 margin-top: 70px;
+            }
+            /* design de la partie multimédia*/
+            
+            #Multimedia .slider-Multimedia {
+                display: flex;
+                width: 60%;
+                margin: 40px auto;
+            }
+            
+            #Multimedia .slider-content {
+                padding: 15px;
+                background: var(--gradient-white);
+                font-size: 14px;
+            }
+            
+            .slider-content .titre {
+                font-size: 14px;
             }
